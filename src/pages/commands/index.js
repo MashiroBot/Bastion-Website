@@ -163,7 +163,13 @@ class CommandsPage extends React.Component {
                 }
                 </tbody>
               : <tbody>
-                  <CommandsPlaceholder />
+                  {
+                    Array.apply(null, Array(~~(Math.random() * 2) ? 5 : 6)).map((e, i) => {
+                      return (
+                        <CommandsPlaceholder />
+                      );
+                    })
+                  }
                 </tbody>
             }
           </table>
