@@ -5,6 +5,7 @@ import showdown from 'showdown';
 import axios from 'axios';
 import meta from './meta.json';
 import ExternalLink from '../../components/ExternalLink.js';
+import NoResultsFound from '../../components/NoResultsFound';
 import { TextPlaceholder } from '../../components/Placeholder';
 import './index.css';
 
@@ -32,7 +33,9 @@ class CommandsPlaceholder extends React.Component {
 class CommandsPage extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      noResultsFound: false
+    };
   }
 
   componentDidMount() {
@@ -75,6 +78,21 @@ class CommandsPage extends React.Component {
           tr[i].style.display = 'none';
         }
       }
+    }
+
+    tr = Array.from(tr);
+    let hiddenRows = tr.filter(row => row.style.display !== 'none');
+    if (hiddenRows.length) {
+      table.style = 'display: table;';
+      this.setState({
+        noResultsFound: false
+      });
+    }
+    else {
+      table.style = 'display: none;';
+      this.setState({
+        noResultsFound: true
+      });
     }
   }
 
@@ -145,6 +163,11 @@ class CommandsPage extends React.Component {
               }
             </tbody>
           </table>
+          {
+            this.state.noResultsFound
+            ? <NoResultsFound />
+            : ''
+          }
         </div>
       </div>
     );
