@@ -133,10 +133,11 @@ class CommandsPage extends React.Component {
                 </td>
               </tr>
             </thead>
-            <tbody>
-              {
-                this.state.commands
-                ? this.state.commands.map((command, i) => {
+            {
+              this.state.commands
+              ? <tbody>
+                {
+                  this.state.commands.map((command, i) => {
                     return (
                       <tr className='command' key={ i }>
                         <td>
@@ -159,9 +160,12 @@ class CommandsPage extends React.Component {
                       </tr>
                     );
                   })
-                : <CommandsPlaceholder />
-              }
-            </tbody>
+                }
+                </tbody>
+              : <tbody>
+                  <CommandsPlaceholder />
+                </tbody>
+            }
           </table>
           {
             this.state.noResultsFound
