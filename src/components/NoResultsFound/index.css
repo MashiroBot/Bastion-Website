@@ -1,0 +1,13 @@
+div.NoResultsFound {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+div.NoResultsFound svg {
+  margin-bottom: 20px;
+}
+
+div.NoResultsFound p {
+  margin: 0;
+  opacity: .5;
+}
