@@ -10,6 +10,21 @@
     "image": "https://resources.bastionbot.org/images/3032958327d58b18ff8d735130ce5069.png"
   },
   {
+    "title": "Giveaways",
+    "description": "Bastion can handle giveaways for you in your server. Run as many giveaways as you want and spread love to your users by giving away as much as you want!",
+    "image": "https://resources.bastionbot.org/images/78d4e820bce4c74cda54505264882e79.png"
+  },
+  {
+    "title": "Suggestions Channel",
+    "description": "Bastion can help you receive suggestions or feedbacks from your members, neatly! Receive those user feedbacks and make your community great by listening to your users.",
+    "image": "https://resources.bastionbot.org/images/56b84c6c034398c2388206f62eb26eb8.png"
+  },
+  {
+    "title": "Voting Channels",
+    "description": "Setup voting channels so that any content posted in those channels can be voted by your users who have access to that channel. Votes will give you insite on how much the content is liked (or disliked) by your users.",
+    "image": "https://resources.bastionbot.org/images/cc3c696248a8dd3579c3ac043150b3d5.png"
+  },
+  {
     "title": "User Profiles",
     "description": "Global profiles for users that shows the amount of Bastion Currencies with them, their global rank, experience points or level. They can also set up to have a short bio, or their location, or even their birth date.",
     "image": "https://resources.bastionbot.org/images/3bedb115aa2dd150fdfc8fad04dd2702.png"
