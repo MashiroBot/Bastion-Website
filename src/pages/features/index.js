@@ -44,7 +44,9 @@ class FeaturesPage extends React.Component {
                     </div>
                     <div className='details'>
                       <h4>{ feature.title }</h4>
-                      <p>{ feature.description }</p>
+                      <p
+                        dangerouslySetInnerHTML={{ __html: converter.makeHtml(feature.description) }}
+                      />
                     </div>
                   </div>
                 );
