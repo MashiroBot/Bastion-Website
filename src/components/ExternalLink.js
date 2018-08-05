@@ -7,7 +7,7 @@ class ExternalLink extends React.Component {
       ? <a href='javascript:void(0);'>
           { this.props.children }
         </a>
-      : <a href={ this.props.to } target='_blank'>
+      : <a href={ this.props.to } target='_blank' rel='noopener'>
           { this.props.children }
         </a>
     );
