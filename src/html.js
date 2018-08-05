@@ -21,7 +21,7 @@ class HTML extends React.Component {
       );
     }
     return (
-      <html { ...this.props.htmlAttributes } prefix='og: http://ogp.me/ns#'>
+      <html { ...this.props.htmlAttributes } lang='en-US' prefix='og: http://ogp.me/ns#'>
         <head>
           <meta charSet='utf-8' />
           <meta httpEquiv='x-ua-compatible' content='ie=edge' />
