@@ -35,6 +35,7 @@ class IndexPage extends React.Component {
         <img
           src={ this.state.bastionLogo }
           onClick={ () => this.increment() }
+          alt='Bastion Logotype'
           width='1024'
           height='176'
         />
