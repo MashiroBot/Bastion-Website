@@ -28,8 +28,8 @@ class HTML extends React.Component {
           <meta
             name='viewport'
             content={
-              'width=device-width, user-scalable=no, shrink-to-fit=no,'
-              + ' initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0'
+              'width=device-width, shrink-to-fit=no,'
+              + ' initial-scale=1.0, minimum-scale=1.0'
             }
           />
 
