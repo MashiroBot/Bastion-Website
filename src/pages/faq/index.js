@@ -34,8 +34,8 @@ class FAQPage extends React.Component {
           <p>
             Have a question that is not listed here? No worries mate, just head
             over to the <a>#help</a> channel in <a
-            href='https://discord.gg/fzx8fkt' target='_blank'>Bastion Discord
-            Server</a>, and ask it.
+            href='https://discord.gg/fzx8fkt' target='_blank' rel='noopener'>
+            Bastion Discord Server</a>, and ask it.
           </p>
         </div>
 

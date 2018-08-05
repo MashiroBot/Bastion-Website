@@ -23,9 +23,9 @@ class DonatePage extends React.Component {
           </p>
           <p>
             Your donations will ensure the development of <a
-            href='https://github.com/TheBastionBot' target='_blank'>The Bastion
-            Bot Project</a> and we will make sure this project stays active
-            forever.
+            href='https://github.com/TheBastionBot' target='_blank'
+            rel='noopener'>The Bastion Bot Project</a> and we will make sure
+            this project stays active forever.
           </p>
         </div>
 

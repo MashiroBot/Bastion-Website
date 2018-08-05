@@ -22,8 +22,8 @@ class BrandingPage extends React.Component {
             send it our way for approval at <a href='mailto:support@bastionbot.org'
             title='Bastion Support'><strong>support@bastionbot.org
             </strong></a> or in the <a href='https://discord.gg/fzx8fkt'
-            title='Bastion HQ' target='_blank'><strong>Bastion HQ</strong></a>.
-            We will get back to you faster than Ganymede.
+            title='Bastion HQ' target='_blank' rel='noopener'><strong>Bastion HQ
+            </strong></a>. We will get back to you faster than Ganymede.
           </p>
         </div>
 

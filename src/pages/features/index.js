@@ -28,8 +28,8 @@ class FeaturesPage extends React.Component {
             of Bastion.
             And if you think Bastion lacks some feature, please <a
             href='https://github.com/TheBastionBot/Bastion/issues/new'
-            target='_blank'>send a suggestion</a> and we will add it to Bastion
-            as soon as possible.
+            target='_blank' rel='noopener'>send a suggestion</a> and we will
+            add it to Bastion as soon as possible.
           </p>
         </div>
 
