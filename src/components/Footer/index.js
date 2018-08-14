@@ -60,6 +60,9 @@ class Footer extends React.Component {
               <ExternalLink to='https://twitter.com/TheBastionBot'>
                 Twitter
               </ExternalLink>
+              <Link to='/followers'>
+                Followers
+              </Link>
               <ExternalLink to='https://reddit.com/r/TheBastionBot'>
                 Reddit
               </ExternalLink>
