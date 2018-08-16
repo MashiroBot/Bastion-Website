@@ -67,6 +67,7 @@ class MainNav extends React.Component {
                 <NavLink name='FAQ' to='/faq' />
                 <NavLink name='Tools' to='/tools' />
                 <NavLink name='Sponsors' to='/sponsors' />
+                <NavLink name='Donors' to='/donors' />
                 <NavLink name='Contributors' to='/contributors' />
                 <NavLink name='Branding' to='/branding' />
                 <NavLink name='Testimonials' to='/testimonials' />
