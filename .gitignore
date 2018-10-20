@@ -8,4 +8,7 @@ public/
 # Misc
 .DS_Store
 yarn-error.log
+
+# Lock files
+yarn.lock
 package-lock.json
