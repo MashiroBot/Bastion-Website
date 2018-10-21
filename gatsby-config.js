@@ -15,7 +15,7 @@ module.exports = {
         background_color: "#070A0C",
         theme_color: "#070A0C",
         display: "minimal-ui",
-        icon: "https://resources.bastionbot.org/og-image.jpg",
+        // icon: "/favicon.png",
       },
     },
     {
@@ -25,5 +25,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-offline",
+    "gatsby-plugin-glamor",
   ],
 };
