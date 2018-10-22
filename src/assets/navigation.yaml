@@ -1,0 +1,12 @@
+---
+header:
+  left:
+
+  right:
+    - name: Bastion HQ
+      link: https://discord.gg/fzx8fkt
+    - name: Add to Discord
+      link: /add
+    - name: Donate
+      link: /donate
+      button: true
