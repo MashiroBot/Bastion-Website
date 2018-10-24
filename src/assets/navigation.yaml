@@ -10,3 +10,49 @@ header:
     - name: Donate
       link: /donate
       button: true
+
+footer:
+  - name: Product
+    links:
+      - name: Features
+        link: /features
+      - name: Commands
+        link: /commands
+      - name: Documentation
+        link: https://docs.bastionbot.org
+      - name: Branding
+        link: /branding
+  - name: Resources
+    links:
+      - name: Help & Support
+        link: https://discord.gg/fzx8fkt
+      - name: Tools
+        link: /tools
+      - name: FAQ
+        link: /faq
+      - name: Status
+        link: https://status.bastionbot.org
+  - name: Project
+    links:
+      - name: Sponsors
+        link: /sponsors
+      - name: Donors
+        link: /donors
+      - name: Contributors
+        link: /sponsors
+      - name: Translators
+        link: /translators
+      - name: Followers
+        link: /followers
+      - name: Testimonials
+        link: /testimonials
+  - name: Community
+    links:
+      - name: Discord
+        link: https://discord.gg/fzx8fkt
+      - name: GitHub
+        link: https://github.com/TheBastionBot
+      - name: Twitter
+        link: https://twitter.com/TheBastionBot
+      - name: Reddit
+        link: https://twitter.com/r/TheBastionBot
