@@ -12,6 +12,7 @@ export default (props) => (
     height: "72px",
     margin: "0 auto",
     fontSize: ".9em",
+    zIndex: 10,
   }}>
     <HeaderLogo />
     <HeaderLinks />

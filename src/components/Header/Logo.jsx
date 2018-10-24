@@ -3,7 +3,12 @@ import Link from "../Link";
 import logos from "../../assets/base64/logos.yaml";
 
 export default (props) => (
-  <Link to={ document.location.pathname === "/" ? "" : "/" }>
+  <Link
+    to={ document.location.pathname === "/" ? "" : "/" }
+    css={{
+      zIndex: 10,
+    }}
+  >
     <img
       src={ logos.bastion.logomark }
       alt="Bastion Heart"

@@ -7,6 +7,7 @@ export default (props) => (
     display: "flex",
     alignItems: "center",
     marginRight: "15px",
+    zIndex: 10,
   }}>
     <ul css={{
       listStyle: "none",
