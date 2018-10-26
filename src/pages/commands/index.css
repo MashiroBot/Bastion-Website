@@ -44,7 +44,6 @@
 
 #commandsTable tr td {
   padding: 10px;
-  cursor: url('../../assets/pointer.png'), auto;
 }
 
 #commandsTable thead tr td {

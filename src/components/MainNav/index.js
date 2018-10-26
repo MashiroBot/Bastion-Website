@@ -44,11 +44,11 @@ class MainNav extends React.Component {
       >
         <div className='MainNav MainNav-left'>
           <ul className='OuterNav'>
-            <NavLink name='Home' to='/' className='min-960px' />
-            <NavLink name='Features' to='/features' />
-            <NavLink name='Commands' to='/commands' />
-            <NavExLink name='Guide' to='https://docs.bastionbot.org' />
-            <NavExLink name='Help &amp; Support' to='https://discord.gg/fzx8fkt' />
+            <NavLink name='Главная' to='/' className='min-960px' />
+            <NavLink name='Возможности' to='/features' />
+            <NavLink name='Команды' to='/commands' />
+            <NavExLink name='Помощь &amp; Поддержка' to='https://discord.gg/xRc7Z7w' />
+			<NavLink name='Спонсоры' to='/sponsors' />
             <li
               name='More'
               onMouseOver={ () => this.toggleInnerNav() }
@@ -58,23 +58,17 @@ class MainNav extends React.Component {
                 className='dropdown'
                 style={{ display: this.state.width > 960 ? '' : 'none' }}
               >
-                More
+                Больше
               </span>
               <ul
                 className='InnerNav'
                 style={{ display: this.state.width <= 960 || this.state.isInnerNavVisible ? '' : 'none' }}
               >
                 <NavLink name='FAQ' to='/faq' />
-                <NavLink name='Tools' to='/tools' />
-                <NavLink name='Sponsors' to='/sponsors' />
-                <NavLink name='Donors' to='/donors' />
-                <NavLink name='Contributors' to='/contributors' />
-                <NavLink name='Branding' to='/branding' />
-                <NavLink name='Testimonials' to='/testimonials' />
-                <NavLink name='Followers' to='/followers' />
-                <NavExLink name='Developers' to='https://dev.bastionbot.org' />
-                <NavExLink name='Translators' to='https://i18n.bastionbot.org' />
-                <NavExLink name='Status' to='https://status.bastionbot.org' />
+                <NavLink name='Инструменты' to='/tools' />
+                <NavLink name='Отзывы' to='/testimonials' />
+                <NavExLink name='Разработчик' to='https://vk.com/colinfl' />
+                <NavExLink name='Статус' to='https://status.gachi.ru' />
               </ul>
             </li>
           </ul>
@@ -82,9 +76,9 @@ class MainNav extends React.Component {
 
         <div className='MainNav MainNav-right'>
           <ul>
-            <NavExLink name='Join Discord' to='https://discord.gg/fzx8fkt' />
-            <NavLink name='Add to Discord' to='/add' />
-            <NavLink name='Donate' to='/donate' className='button primary' />
+            <NavExLink name='Зайти в дискорд' to='https://discord.gg/xRc7Z7w' />
+            <NavLink name='Добавить в дискорд' to='/add' />
+            <NavLink name='Донат' to='/donate' className='button primary' />
           </ul>
         </div>
       </nav>

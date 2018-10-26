@@ -6,12 +6,12 @@ class NotFoundPage extends React.Component {
     return (
       <div className='NotFoundPage-container'>
         <img
-          src='https://resources.bastionbot.org/logos/Bastion_Logomark_C.png'
+          src='https://mbot.gachi.ru/av.jpg'
           width='170'
           height='170'
         />
-        <h1>You look lost my friend.</h1>
-        <p>Let&#39;s head back <Link to='/'>home</Link>.</p>
+        <h1>Вы потерялись.</h1>
+        <p>Пора возращаться обратно: <Link to='/'>Вернуться</Link>.</p>
       </div>
     );
   }

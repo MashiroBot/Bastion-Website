@@ -69,8 +69,8 @@ class NoResultsFound extends React.Component {
             <rect width="160" height="160" y="-1"/>
           </g>
         </svg>
-        <p>We searched far and wide.</p>
-        <p>Unfortunately, no results were found.</p>
+        <p>Мы искали по всему миру!</p>
+        <p>К сожалению, результатов не найдено.</p>
       </div>
     );
   }

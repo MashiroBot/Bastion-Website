@@ -39,7 +39,7 @@ class CommandsPage extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('https://raw.githubusercontent.com/TheBastionBot/Bastion/stable/locales/en/modules.json')
+    axios.get('https://raw.githubusercontent.com/ColinFL/MashiroBot/master/cmdsru.json')
       .then(res => {
         let commands = [];
         for (let module of Object.keys(res.data)) {
@@ -106,16 +106,16 @@ class CommandsPage extends React.Component {
         />
 
         <div className='header'>
-          <h1>Bastion Commands</h1>
+          <h1>Список команд Маширо</h1>
           <p>
-            Check out the commands list of Bastion that you can use with it.<br />
-            The default prefix of Bastion is <code>#!</code>
+            Посмотрите список команд который вы можете использовать с Маширо!<br />
+            Стандартный префикс Маширо бота <code>.</code>
           </p>
           <div>
             <input
               id='commandFilter'
               type='text'
-              placeholder='🔍 Search commands'
+              placeholder='🔍 Поиск команд'
               onKeyUp={ () => this.filterCommands() }
             />
           </div>
@@ -126,11 +126,11 @@ class CommandsPage extends React.Component {
             <thead>
               <tr>
                 <td style={{ width: '30%' }}>
-                  Command
+                  Команда
                 </td>
                 <td style={{ width: '70%' }}>
-                  Description
-                </td>
+                  Описание
+				</td>
               </tr>
             </thead>
             {
@@ -146,7 +146,7 @@ class CommandsPage extends React.Component {
                           </div>
                           <div
                             className='commandModule'
-                            title={ `This command belongs to the ${command.module} module` }
+                            title={ `Это команда из модуля ${command.module}` }
                           >
                             <code>{ command.module }</code>
                           </div>

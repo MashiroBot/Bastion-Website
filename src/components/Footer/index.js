@@ -23,57 +23,45 @@ class Footer extends React.Component {
         <div className='Footer-content'>
           <div className='Footer-navigation'>
             <div className='Footer-card'>
-              <h3>Resources</h3>
-              <ExternalLink to='https://docs.bastionbot.org'>
-                Installation Guide
+              <h3>Ресурсы</h3>
+              <ExternalLink to='https://discord.gg/xRc7Z7w'>
+                Помощь &amp; Поддержка
               </ExternalLink>
-              <ExternalLink to='https://discord.gg/fzx8fkt'>
-                Help &amp; Support
-              </ExternalLink>
-              <Link to='/tools'>Tools</Link>
+              <Link to='/tools'>Инструменты</Link>
               <Link to='/faq'>FAQ</Link>
-              <Link to='/branding'>Branding</Link>
-              <ExternalLink to='https://status.bastionbot.org'>
-                Status
+              <ExternalLink to='https://status.gachi.ru'>
+                Состояние платформы
               </ExternalLink>
             </div>
             <div className='Footer-card'>
-              <h3>Supporters</h3>
-              <Link to='/sponsors'>Sponsors</Link>
-              <Link to='/donors'>Donors</Link>
-              <Link to='/contributors'>Contributors</Link>
-              <Link to='/testimonials'>Testimonials</Link>
-              <ExternalLink to='https://dev.bastionbot.org'>
-                Developers
-              </ExternalLink>
-              <ExternalLink to='https://i18n.bastionbot.org'>
-                Translators
+              <h3>Сторонники</h3>
+              <Link to='/sponsors'>Спонсоры</Link>
+              <Link to='/testimonials'>Отзывы</Link>
+              <ExternalLink to='https://vk.com/colinfl'>
+                Автор
               </ExternalLink>
             </div>
             <div className='Footer-card'>
-              <h3>Social</h3>
-              <ExternalLink to='https://discord.gg/fzx8fkt'>
+              <h3>Социальное</h3>
+              <ExternalLink to='https://discord.gg/xRc7Z7w'>
                 Discord
               </ExternalLink>
-              <ExternalLink to='https://github.com/TheBastionBot'>
-                GitHub
-              </ExternalLink>
-              <ExternalLink to='https://twitter.com/TheBastionBot'>
+              <ExternalLink to='https://twitter.com/DiscordMashiro'>
                 Twitter
               </ExternalLink>
-              <Link to='/followers'>
-                Followers
-              </Link>
-              <ExternalLink to='https://reddit.com/r/TheBastionBot'>
-                Reddit
+              <ExternalLink to='https://vk.com/staffq'>
+                Vkontakte
               </ExternalLink>
             </div>
             <div className='Footer-card'>
-              <h3>Donate</h3>
-              <ExternalLink to='https://patreon.com/bastionbot'>
-                Patreon
+              <h3>Донат</h3>
+              <ExternalLink to='https://qiwi.me/mashiroup'>
+                QIWI
               </ExternalLink>
-              <ExternalLink to='https://paypal.me/snkrsnkampa'>
+			  <ExternalLink to='https://anime.gachi.ru/donate.php'>
+                FreeKassa
+              </ExternalLink>
+              <ExternalLink to='https://paypal.me/mashirobot'>
                 PayPal
               </ExternalLink>
             </div>
@@ -81,8 +69,13 @@ class Footer extends React.Component {
           <span className='hr'></span>
           <div className='Footer-meta'>
             <div className='Footer-meta-copyright'>
-              Copyright &copy; 2018 - The Bastion Bot Project
+			<ExternalLink to='https://github.com/MashiroBot/Bastion-Website'>
+              Mashiro Discord
+			</ExternalLink>
             </div>
+			<div className='Footer-meta-copyright'>
+                Copyright &copy; 2018 - The Bastion Bot Project
+			</div>
           </div>
         </div>
       </footer>

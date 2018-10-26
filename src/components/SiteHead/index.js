@@ -11,7 +11,7 @@ class Head extends React.Component {
     return (
       <Helmet
         defaultTitle={ siteMetadata.title }
-        titleTemplate='%s - The Bastion Bot'
+        titleTemplate='%s - Маширо дискорд бот'
         title={ this.props.title }
         meta={[
           {

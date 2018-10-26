@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import SiteHead from '../../components/SiteHead';
 import ExternalLink from '../../components/ExternalLink.js';
 import meta from './meta.json';
@@ -17,20 +16,12 @@ class DonatePage extends React.Component {
         />
 
         <div className='header'>
-          <h1>Donate to Bastion</h1>
+          <h1>Пожертвовать маширо</h1>
           <p>
-            Support the developement of Bastion and keep it running forever by
-            donating us.
+            Поддерживайте развитие Маширо и поддерживайте его навсегда, пожертвовав нам.
           </p>
           <p>
-            Your donations will ensure the development of <a
-            href='https://github.com/TheBastionBot' target='_blank'
-            rel='noopener'>The Bastion Bot Project</a> and we will make sure
-            this project stays active forever.
-          </p>
-          <p>
-            Check out the <Link to='/donors'>people who have donated</Link> to
-            support the development of the project.
+            Ваши пожертвования обеспечат развитие Маширо Бота и мы будем уверены, что этот проект будет активным навсегда.
           </p>
         </div>
 

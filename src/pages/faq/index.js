@@ -30,12 +30,10 @@ class FAQPage extends React.Component {
         />
 
         <div className='header'>
-          <h1>Frequently Asked Questions</h1>
+          <h1>Часто задаваемые вопросы</h1>
           <p>
-            Have a question that is not listed here? No worries mate, just head
-            over to the <a>#help</a> channel in <a
-            href='https://discord.gg/fzx8fkt' target='_blank' rel='noopener'>
-            Bastion Discord Server</a>, and ask it.
+            У вас есть вопрос которого тут нет? Не беспокойтесь, направляйтесь <a>#support-mashiro</a> канал на <a
+            href='https://discord.gg/xRc7Z7w' target='_blank'>Маширо Хаб</a>, и спрашивайте.
           </p>
         </div>
 
