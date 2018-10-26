@@ -19,17 +19,17 @@ class FeaturesPage extends React.Component {
         />
 
         <div className='header'>
-          <h1>Feature Highlights</h1>
+          <h1>Основные возможности</h1>
           <p>
-            Bastion is an all-in-one multipurpose Discord bot that can do a
-            whole bunch of things and its features are expanding daily. Bastion
-            does everything most people will ever need it to do. Check out some
-            feature highlights below to get a peek into the vast feature list
-            of Bastion.
-            And if you think Bastion lacks some feature, please <a
-            href='https://github.com/TheBastionBot/Bastion/issues/new'
-            target='_blank' rel='noopener'>send a suggestion</a> and we will
-            add it to Bastion as soon as possible.
+            Маширо - Многофункциональный дискорд бот который может
+			кучу всяких вещей и ее функции расширяются ежедневно.
+            Маширо может все что когда-либо понадобится большинству людей.
+			Ниже приведены основные особенности бота для того что бы ознакомиться
+			стоит перейти к списку команд.
+            Если вы считаете что Маширо не хватает какой-либо функции <a
+            href='https://discord.gg/xRc7Z7w'
+            target='_blank'>отправьте предложение</a> и мы добавим ее в Маширо 
+			как можно скорее.
           </p>
         </div>
 

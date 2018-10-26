@@ -15,15 +15,15 @@ class TestimonialsPage extends React.Component {
         />
 
         <div className='header'>
-          <h1>Testimonials</h1>
+          <h1>Отзывы</h1>
           <p>
-            See how much people love Bastion and what they have to say about it.
+            Посмотрите, как много людей любят Маширо и что они могут сказать об этом.
             <br />
-            Wanna share your thoughts? Tweet&nbsp;
-            <ExternalLink to='https://twitter.com/TheBastionBot'>
-              @TheBastionBot
+            Хотите поделиться своими мыслями? Tweet&nbsp;
+            <ExternalLink to='https://twitter.com/DiscordMashiro'>
+              @DiscordMashiro
             </ExternalLink>
-            &nbsp;and your tweets will be posted in this page.
+            &nbsp;и ваш твит будет опубликован на этой странице.
           </p>
         </div>
 

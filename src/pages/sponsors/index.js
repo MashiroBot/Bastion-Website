@@ -16,10 +16,9 @@ class SponsorsPage extends React.Component {
         />
 
         <div className='header'>
-          <h1>Sponsors</h1>
+          <h1>Спонсоры</h1>
           <p>
-            These are the amazing companies and people who sponsor <strong>The
-            Bastion Bot Project</strong> and keep us running.
+            Это удивительные компании и люди, которые спонсируют<strong> Маширо Бот</strong> и позволяют нам работать вечно.
           </p>
         </div>
 

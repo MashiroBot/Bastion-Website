@@ -1,11 +1,11 @@
 {
-  "name": "The Bastion Bot",
-  "short_name": "Bastion",
-  "start_url": "https://bastionbot.org",
+  "name": "Mashiro Discord Bot",
+  "short_name": "Mashiro",
+  "start_url": "https://rubot.gachi.ru",
   "display": "standalone",
   "theme_color": "#070a0c",
   "background_color": "#070a0c",
-  "description": "Give awesome perks to your Discord server!",
+  "description": "Единственный дискорд бот<br>который вам понадобится.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -18,7 +18,7 @@
       "type": "image/png"
     }
   ],
-  "lang": "en-US",
+  "lang": "ru-RU",
   "orientation": "any",
   "related_applications": [],
   "prefer_related_applications": false

@@ -16,8 +16,8 @@ class ToolsPage extends React.Component {
         />
 
         <div className='header'>
-          <h1>Tools</h1>
-          <p>Some very useful tools that can be used with Bastion.</p>
+          <h1>Инструменты</h1>
+          <p>Некоторые очень полезные инструменты, которые можно использовать с Маширо.</p>
         </div>
 
         <div className='container'>
